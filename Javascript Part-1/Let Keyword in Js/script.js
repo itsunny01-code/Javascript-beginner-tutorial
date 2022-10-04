@@ -1,23 +1,20 @@
+// declare constants 
 
-// let keyword 
-// declare variable with let keyword 
+const a = 3;
+console.log(a) ;
 
-let a = "o";
-let a = "p" ;
-
-// If you print this code you will get 
-// OUTPUT : 'a' has already been declared
+// if we print this code we get :
+// OUTPUT : 3
 
 
-// The Main reason of using Let keyword is it gives a error when we two variables with same . it helps us in long coding .also Mostly Developer used this
+// BUT 
 
+const b = 4;
+b = 5 ;
 
+console.log(b);
 
-// Var Keyword
+// if we print this code we get :
+// OUTPUT : Assignment to constant variable.
 
-var co = "o";
-var co = "p" ;
-
-
-// If you print this code you will get 
-// OUTPUT : p
+// So using const keyword we can't change the value of any variable
