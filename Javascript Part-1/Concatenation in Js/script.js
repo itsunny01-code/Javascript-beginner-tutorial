@@ -1,29 +1,29 @@
+// Concatenation Means adding 
 
 
-let a = "alok";
-console.log(typeof a);  // output is : string
-
-let b = 01;
-console.log(typeof b);  // output is : number
-
-
-
-// let's change there types :
-
-// string to number
-
-let aa = "alok";
-
-aa = +aa ;  // if we put  + before the variable its change there type to number
-
-console.log(typeof aa);  // output is : number
+// Adding of two numbers
+let a = 7;
+let b = 5;
+console.log(a + b);  //output is : 12
 
 
 
-// number to string
+// Adding of two strings
+let c = 'sunny';
+let d = 'mishra';
+console.log(c +' '+ d); //output is : sunny mishra
 
-let bb = 01;
 
-bb = bb + '' ;  // if we put + ''  (adding of string) after the variable its change there type to string
 
-console.log(typeof bb);  // output is : string
+//Adding of two strings as a numbers > first method
+let e = '1';
+let f = '5';
+let g = +e + +f;  //output is : 6
+console.log(g);
+
+
+
+//Adding of two strings as a numbers > second method
+let h = '1';
+let i = '5';
+console.log( +h + +i); //output is : 6
