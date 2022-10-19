@@ -8,7 +8,7 @@ function myFunc2(name){
 
 function myFunc(callback){
     console.log("hello there I am a func and I can..")
-    callback("harshit");
+    callback("Alok");
 }
 
 
